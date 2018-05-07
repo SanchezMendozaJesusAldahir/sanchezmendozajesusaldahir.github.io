@@ -1,0 +1,49 @@
+/***************************/
+ /** Reglas para etiquetas **/
+ /***************************/
+
+ body {
+    margin: 0px auto;
+    background-color: rgb(6,28,42);
+ }
+ .contenedor {
+     overflow: hidden;
+ }
+ .dashboard {
+    float: left;
+    width: 20%;
+    padding-bottom: 100%;
+    background-color: rgb(72, 112, 136);
+    padding-right: 10px;
+ }
+ .dashboard ul {
+    list-style-type: none;
+ }
+ .dashboard ul li {
+    display: inline-block;
+  }
+  .dashboard ul li a {
+      text-decoration: none;
+      color: rgb(221, 221, 221);
+  }
+  .dashboard ul li a:hover {
+      color: rgb(192, 190, 190);
+      font-size: 18px;
+  }
+ .contenido-principal {
+    float: left;
+    width: 60%;
+    margin-left: 10em;
+    background-color: rgb(43,86,103);
+ }
+ .navegacion {
+     margin-top:
+ }
+ .cabecera {
+    text-align: center;
+    color: rgb(221,221,221);
+ }
+ .menu {
+    color: rgb(221,221,221);
+    display: block;
+ }
