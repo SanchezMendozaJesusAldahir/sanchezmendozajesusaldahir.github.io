@@ -6,6 +6,19 @@
     margin: 0px auto;
     background-color: rgb(6,28,42);
  }
+ hr {
+    color: aliceblue;
+    padding: 5px auto;
+ }
+ h1{
+     color: beige;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 40px;
+ }
+ h2 {
+     color: beige;
+    font-family: 'Times New Roman', Times, serif;
+ }
  .contenedor {
      overflow: hidden;
  }
@@ -15,6 +28,7 @@
     padding-bottom: 100%;
     background-color: rgb(72, 112, 136);
     padding-right: 10px;
+    position: fixed;
  }
  .dashboard ul {
     list-style-type: none;
@@ -31,13 +45,18 @@
       font-size: 18px;
   }
  .contenido-principal {
-    float: left;
-    width: 60%;
-    margin-left: 10em;
+    width: 70%;
     background-color: rgb(43,86,103);
+    margin-left: 320px;
+    padding: 5px 10px 5px 10px;
+    border-style:  groove;
+    border-radius: 10px;
  }
- .navegacion {
-     margin-top:
+ .contenido-principal p {
+     font-size: 15px;
+     font-family: 'Courier New', Courier, monospace;
+     color: aliceblue;
+   
  }
  .cabecera {
     text-align: center;
